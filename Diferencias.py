@@ -21,6 +21,17 @@ analice grandes volúmenes de datos. La máquina utilizará modelos estadístico
 patrones en los datos y producir un resultado. El resultado tiene una probabilidad de corrección
 o un grado de confianza asociados.
 
+REFERENCIAS
+
+-La IA y el ML y su importancia para las empresas. (2021). Redhat.com.
+https://www.redhat.com/es/blog/what-aiml-and-why-does-it-matter-your-business
+
+-IA y machine learning: diferencia entre inteligencia artificial y machine learning.
+AWS. (2025, August 20). Amazon Web Services, Inc.
+https://aws.amazon.com/es/compare/the-difference-between-artificial-intelligence-and-machine-learning/
+
+
+
 
 '''
 
