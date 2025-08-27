@@ -13,6 +13,9 @@
 Ejemplo de estructura inicial
 --------------------------------------------------------------------------------
 1.Filtros en DataFrames
+Sirven para seleccionar filas específicas que cumplen una condición.
+Ejemplo: obtener solo las personas mayores de 30 años en un DataFrame.
+
 ```python
 import pandas as pd
 
@@ -33,6 +36,8 @@ Resultado esperado:
 3  Marta    40   Bogotá
 --------------------------------------------------------------------------------
 2.Agrupamiento con groupby
+Permite agrupar datos según una o más columnas y luego aplicar funciones como promedio, suma o conteo.
+Ejemplo: calcular la edad promedio de las personas según su ciudad.
 
 Agrupar por ciudad y calcular edad promedio
 
@@ -47,6 +52,8 @@ Medellín    35.0
 Name: Edad, dtype: float64
 --------------------------------------------------------------------------------
 3.Merge y Join
+Se utilizan para combinar dos DataFrames en uno solo, uniendo información común (por ejemplo, una columna compartida).
+Ejemplo: unir un DataFrame de personas con otro que contiene datos de sus ciudades.
 
  import pandas as pd
 
@@ -71,6 +78,11 @@ Resultado esperado:
 3   Pedro    29      Cali     2200000
 --------------------------------------------------------------------------------
 4.Manejo de valores nulos
+En los datos reales es común tener valores faltantes. Pandas permite:
+Detectarlos (NaN).
+Reemplazarlos con un valor por defecto (fillna).
+Eliminarlos (dropna).
+
 df.loc[2, 'Ciudad'] = None   Introducimos un NaN
 print(df)
 
@@ -81,6 +93,9 @@ print(df.fillna("Desconocido"))
 print(df.dropna())
 --------------------------------------------------------------------------------
 5.Exportación e importación
+Sirve para guardar un DataFrame en archivos como CSV, Excel, etc., y también para leerlos nuevamente en Pandas.
+Ejemplo: exportar un DataFrame a datos.csv y luego volver a cargarlo con pd.read_csv.
+
 df.to_csv("datos.csv", index=False)
 df_csv = pd.read_csv("datos.csv")
 print(df_csv)
