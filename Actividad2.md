@@ -291,6 +291,10 @@ NUMPY: Es una biblioteca de Python  que permite trabajar con arreglos multidimen
             [4 6] 
             [6 7]
 
+   REFERENCIAS:
+   - A2 Ciencias de Datos. (2022, octubre). El tutorial más importante sobre NumPy [Video]. YouTube. https://youtu.be/cYm3DBG6KfI
+   - Ágora – Escuela de Programación. (s. f.). Manual básico de la librería NumPy de Python [PDF]. Gumroad. https://agoraprogramacion.gumroad.com/l/manualbasiconumpy
+
 
 ## NumPy – Operaciones estadísticas y funciones avanzadas
 Describe las funciones más importantes de NumPy relacionadas con estadística, generación de secuencias, números aleatorios y álgebra lineal. Cada sección incluye una explicación breve, ejemplos y resultados prácticos.
